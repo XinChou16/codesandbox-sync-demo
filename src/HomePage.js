@@ -14,7 +14,7 @@ export default function HomePage() {
             </div>
         
             <footer>
-                <p>&copy; 2016-2021 &nbsp;<span aria-label="love">❤️</span></p>
+                <p>&copy; 2016-2021 &nbsp;<span role="img" aria-label="love">❤️</span></p>
                 <div className="beian">
                     <a target="_blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011102002518" alt="">
                         <img src="./assets/icon-beian.png" alt="" />

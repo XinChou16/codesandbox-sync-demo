@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomePage.css';
+import policeImg from './police.png';
 
 export default function HomePage() {
     return (
@@ -17,9 +18,9 @@ export default function HomePage() {
                 <p>&copy; 2016-2021 &nbsp;<span role="img" aria-label="love">❤️</span></p>
                 <div className="beian">
                     <a target="_blank" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011102002518" alt="">
-                        <img src="./assets/icon-beian.png" alt="" />
+                        <img src={policeImg} alt="" />
                         粤公网安备44011102002518号
-                    </a>&nbsp;
+                    </a>
                     <a href="http://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">粤ICP备17090507号-1</a>
                 </div>
             </footer>

@@ -21,7 +21,7 @@ export default function HomePage() {
                         <img src={policeImg} alt="" />
                         粤公网安备44011102002518号
                     </a>
-                    <a href="http://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">粤ICP备17090507号-1</a>
+                    <a href="http://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">粤ICP备17090507号</a>
                 </div>
             </footer>
         </React.Fragment>

@@ -2,6 +2,8 @@ import React from 'react'
 import './HomePage.css';
 import policeImg from './police.png';
 
+document.title = '快乐每一天';
+
 export default function HomePage() {
     return (
         <React.Fragment>
